@@ -1,4 +1,4 @@
-//Created by Group 33- Will Baggott, Callum Donnelly, Cristopher Wright, Junaid Hafiz
+//Created by Will Baggott
 //Created for CTEC2915-28.03.2021-De Montfort University
 
 #include <stdio.h>
