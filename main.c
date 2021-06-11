@@ -192,7 +192,7 @@ else
     div-=gcdKey1;//if div is bigger the minus gcdKey1 from div
     }
     
-if(gcdKey1!=1)
+if(gcdKey1!=1||key1<1||key1>26)
     {
     printf(ANSI_COLOR_RED"Illegal key!"ANSI_COLOR_RESET" \nDoes not have a GCD of 1 or doesn't meet the min/max requirements... \n\n\n");
     goto jump2;//if a user inputs a wrong key, it asks for the key again. ease of use
@@ -321,5 +321,3 @@ else{
 
 return 0;
 }
-
-
